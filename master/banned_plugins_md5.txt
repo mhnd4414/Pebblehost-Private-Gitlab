@@ -1,0 +1,25 @@
+691ed72779e1543c8de28a5d7374d2d2 - TreeClick.jar
+fea7ac51bcecb11dad840db9799fd1f8 - PingTest - probably infected, not 100% but very likely
+4a01bc6c7528cf5b250ce7d630eaee53  TreeClick.jar
+df9516f86e19c9cc8e1feaf96a017b8c  StaffJoin.jar
+1455fa80dd8db4f078d950c1f8556114  StaffJoin.jar
+fbcdb8073fba8aa547f6d0005a79e78a  PluginMetrics.jar
+# The below are all infected versions of the plugins in question
+538831faf23b501176da901d1382a991  MotdManager-Reloaded.jar
+43b90ea47c92980af51e8651a7790e70  DeluxeHub-3.1.10.jar
+996e5e636fddc9996336ce7417ef47ee  AACBungeeConnect.jar
+f50e9f03f755df63badc70c4d0622f46  EssentialsXSpawn-2.0.1.jar
+8b0a209af6606781863d1727f75f0bf1  Citizens.jar
+7a6102d556e402b29eb063ac69ff0001  Multiverse-Core-2.5.jar
+9c14c8253a147634c5b5cec9c9de1381  WorldEdit.jar
+b676fb044c482995f3259a3693da3b59  scoreboard-revision.jar
+49f3607ff6fde965f0a58dca6fe2959f  HolographicExtension-1.10.9.jar
+f47f00466be4348f1d58c39bd59e04d2  AAC.jar
+8b31b2228d3fecb0f0e9d3522dc2b710  LiteBans.jar
+0e6b61a276d0954cb699e0edb1190763  CommandNPC-1.9.1.jar
+11b0b9feafb1e32e257ebf043f91d2ee  LuckPerms-Bukkit-5.0.128.jar
+d89531467192b48d3386f020189693fe  PlaceholderAPI-2.10.6.jar
+6663abea5c0644887b3d6ef573b25ac3  CraftingStore.jar
+b9ac6d884e1be0339f10989a405d4c39  TimeLock.jar
+a6146186c078b674cfbb101c93e35512  NoJoinLeaveMessage.jar
+0114fe3920d66bca4c6207d4010cf416  Link.jar
