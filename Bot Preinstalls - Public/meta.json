@@ -1,0 +1,64 @@
+[
+    {
+        "name": "PebbleHost Server Control Bot",
+        "lang": "nodejs",
+        "zip": "pebblehost-ServerControl.zip",
+        "message": "Don't forget to rename the config.example.yml file to config.yml then change all of the options as explained in the file!"
+    },
+    {
+        "name": "Jagrosh's MusicBot",
+        "lang": "java",
+        "zip": "jagrosh-MusicBot.zip",
+        "message": "Be sure to edit your config.txt to set the bot owner and token!",
+        "gitUrl": "https://github.com/jagrosh/MusicBot"
+    },
+    {
+        "name": "Frost Cleverbot",
+        "lang": "python",
+        "zip": "FrostCleverbot.zip",
+        "message": "Be sure to edit the frost.py file to set the discord bot token and PandoraBots ID",
+        "gitUrl": "https://github.com/jagrosh/FrostCleverbot"
+    },
+    {
+        "name": "Bastion Bot",
+        "lang": "nodejs",
+        "zip": "Bastion.zip",
+        "message": "Be sure to edit settings/credentials.yaml to set your bot ID and token. Addtionally, you need a MongoDB database, open a ticket to get this created!",
+        "gitUrl": "https://github.com/TheBastionBot/Bastion"
+    },
+    {
+        "name": "Master Bot",
+        "lang": "nodejs",
+        "zip": "MasterBot.zip",
+        "message": "Be sure to edit config.json to set your token, and index.js to set your bot ID.",
+        "gitUrl": "https://github.com/galnir/Master-Bot"
+    },
+    {
+        "name": "Captcha Bot",
+        "lang": "nodejs",
+        "zip": "discordcaptcha.zip",
+        "message": "Be sure to edit config/config.json to set your token and other settings required for Captcha Bot",
+        "gitUrl": "https://github.com/y21/discordcaptcha"
+    },
+    {
+        "name": "Minesweeper Bot",
+        "lang": "nodejs",
+        "zip": "minesweeperbot.zip",
+        "message": "Be sure to edit auth.json to set your token and other settings required for Minesweeper Bot",
+        "gitUrl": "https://github.com/JochCool/minesweeper-bot"
+    },
+    {
+        "name": "Evo Bot",
+        "lang": "nodejs",
+        "zip": "evobot.zip",
+        "message": "Be sure to edit config.json to set your token and other settings required for Evo Bot",
+        "gitUrl": "https://github.com/eritislami/evobot"
+    },
+    {
+        "name": "Loritta Bot",
+        "lang": "java",
+        "zip": "Loritta.zip",
+        "message": "Be sure to edit discord.conf and loritta.conf to set your token and other required settings.",
+        "gitUrl": "https://github.com/LorittaBot/Loritta"
+    }
+]

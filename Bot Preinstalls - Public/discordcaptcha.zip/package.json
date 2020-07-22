@@ -1,0 +1,24 @@
+{
+  "name": "discordcaptcha",
+  "version": "5.0.0",
+  "description": "A verification bot",
+  "main": "src/run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y21/discordcaptcha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y21/discordcaptcha/issues"
+  },
+  "homepage": "https://github.com/y21/discordcaptcha#readme",
+  "dependencies": {
+    "@types/node": "^13.11.0",
+    "detritus-client": "^0.10.1",
+    "jimp": "^0.10.0"
+  }
+}

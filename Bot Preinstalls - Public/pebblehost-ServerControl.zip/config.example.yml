@@ -1,0 +1,67 @@
+#         //////////       
+#     ////////  ////////.  
+#   //////           ////( 
+#   ////     /////    ////  PebbleHost Server Control Bot
+#   ////    //////    ////  Copyright PebbleHost 2020
+#   ////      //      //// 
+#   ////           *////// 
+#      /    ((/////////    
+#           ((/////         
+
+
+# IMPORTANT: You will need to rename this file from `config.example.yml` to
+# IMPORTANT: `config.yml` for the bot to function correctly
+
+# Discord bot token
+token: "NzEyNDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+# Your Pebblehost API key, you can find this by clicking your profile picture in the top right of the
+# panel, and clicking Generate API Key, then copying the key
+api-user: ""
+api-key: ""
+
+# Command prefix
+prefix: "!"
+
+# Each server has to be "Name: Server ID". You can find the server ID on the server page in the panel
+# This does not have to be the same name as the panel. The name here cannot contain spaces.
+servers: 
+    Survival: 71173
+    Factions: 111824
+
+# Which users should be able to run which commands
+permissions:
+    users:
+        "193053876692189184": # A user ID
+            - start # The commands they can run
+            - stop
+            - command
+            - status
+            - restart
+            - help
+            - empty-survival
+    roles:
+        "451221272165089292": # A role ID
+            - stop # The commands they can run
+
+# If you add any channel IDs here, then the bot will only work in this channel
+channel_whitelist: []
+
+# Emojis that appear in responses
+emojis:
+    error: "❌"
+    apiError: "⚠️"
+    online: "🟢"
+    offline: "🔴"
+    success: "✅"
+
+# When one command is typed, instead run different commands
+# Can be used to make a short command that runs a few big commands
+# You need permission to run the alias
+scripts:
+    # For example, this would make !empty-survival run these three commands in order, to 
+    # announce the action on Survival, run a Bungee command to move all players, then stop the server
+    empty-survival:
+        - command Survival broadcast Server being emptied...
+        - command Bungeecord send survival hub
+        - stop Survival
